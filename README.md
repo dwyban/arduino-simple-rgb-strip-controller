@@ -3,7 +3,7 @@
 Simple RGB Strip Controller is as the name implies, a very simple RGB strip controller and is built on the Arduino platform.  This controller accepts very simple commands via the Arduino's serial port to change the color output on the RGB strip connected to it.  This controller uses the PWM outputs of the Arduino to change the color of the LEDs and is designed to work with simple 12V 5050 RGB LED strips.
 
 ## Project Description
-This project consists of an Arduino Sketch to configure the Arduino as a Simple RGB LED Controller.  This sketch uses the [Arduino-SerialCommand](https://github.com/kroimon/Arduino-SerialCommand) library for command processing so you will need to download and install this library in your Arduino libraries directory before the project can be bilt.
+This project consists of an Arduino Sketch to configure the Arduino as a Simple RGB LED Controller.  This sketch uses the [ArduinoSerialCommand](https://github.com/scogswell/ArduinoSerialCommand) library for command processing so you will need to download and install this library in your Arduino libraries directory before the project can be bilt.
 
 ## Wiring Diagram
 Below is a wiring diagram for this project showing how to hook up the Arduino to the RGB LED Strips.
